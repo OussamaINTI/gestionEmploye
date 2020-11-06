@@ -1,6 +1,6 @@
 node{
 stage('SCM'){
- git 'https://github.com/OussamaINTI/devOps'
+ git 'https://github.com/OussamaINTI/gestionEmploye.git'
 }
 stage('Compile'){
 def mvnHome = tool name: 'maven-3' , type: 'maven'
